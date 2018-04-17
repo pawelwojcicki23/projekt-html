@@ -11,15 +11,55 @@
 </head>
 <body>
     <div class="container">
-      <h2 class="header">Register Form</h2>
+      <h2 class="header1">Register Form</h2>
         <div class="register">
             <form action="" class="first-form">
-                <input type="text" name="username" value="Username"><br>
-                <input type="password" name="password" value="Password"><br>
-                <input type="password" name="confirm-password" value="Confirm password"><br>
-                <input type="email" name="email" value="E-mail"><br>
-                <input type="text" name="location" value="Your location"><br>
-                <input type="button" onclick="alert('Hello World!')" value="Sign up"><br>
+                <input type="text" name="username" placeholder="Username" id="username" class="username"><br>
+                <input type="password" name="password" placeholder="Password" id="password" class="password"><br>
+                <input type="password" name="confirm-password" placeholder="Confirm password" id="confirm" class="confirm"><br>
+                <input type="email" name="email" placeholder="E-mail" id="email" class="email"><br>
+                <input type="text" name="location" placeholder="Your location" id="loco" class="loco"><br>
+                <label for="check">I have read and accept the term of use</label>
+                <input type="checkbox" id="check" class="accept"><br>
+                <input type="button" onclick="alert('Hello World!')" value="Sign up" id="signup" class="signup"><br>
+            </form>
+        </div>
+        <h2 class="header4">Send E-mail</h2>
+        <div class="send-email">
+            <form action="" class="first-form">
+                <input type="text" name="username" placeholder="Username" id="username"><br>
+                <input type="email" name="email" placeholder="E-mail" id="email"><br>
+                <textarea name="textarea" placeholder="Type your message..." cols="30" rows="10" id="message" class="message"></textarea><br>
+                <label for="check">I have read and accept the term of use</label>
+                <input type="checkbox" id="check" class="accept"><br>
+                <input type="button" onclick="alert('You have sent an e-mail')" value="Send E-mail" id="signup"><br>
+            </form>
+        </div>
+        <h2 class="header2">Sign In Form</h2>
+        <div class="sign">
+            <form action="" class="second-form">
+                <input type="text" name="username" placeholder="Username" id="username"><br>
+                <input type="password" name="password" placeholder="Password" id="password"><br>
+                <label for="remember">Remember me</label>
+                <input type="checkbox" name="remember" id="remember" class="remember"><br>
+                <input type="button" onclick="alert('Hello World!')" value="Sign in" id="signin"><br>
+            </form>
+        </div>
+        <h2 class="header3">Recover Form</h2>
+        <div class="recover">
+            <form action="" class="second-form">
+                <input type="email" name="email" placeholder="Enter your e-mail" id="email" class="recovery-email"><br>
+                <input type="tel" name="phone-number" placeholder="Enter your Phone number" id="username"><br>
+                <input type="button" onclick="alert('Hello World!')" value="Send" id="signin"><br>
+                <input type="button" onclick="alert('Hello World!')" value="Done" id="done" class="done"><br>
+            </form>
+        </div>
+        <h2 class="header5">Subscribe</h2>
+        <div class="subscribe">
+            <form action="" class="second-form">
+                <input type="email" name="email" placeholder="Enter your e-mail" id="email" class="recovery-email"><br>
+                <input type="button" onclick="alert('Hello World!')" value="Subscribe" id="signin"><br>
+                <input type="button" onclick="alert('Hello World!')" value="No, thanks" id="thanks" class="thanks"><br>
             </form>
         </div>
     </div>
