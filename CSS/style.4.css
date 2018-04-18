@@ -1,0 +1,27 @@
+/*subscribe*/
+
+.header5 {
+    font-size: 32px;
+    font-style: normal;
+    color: white;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.subscribe {
+    width: 100%;
+    height: auto;
+    background-color: rgb(117, 29, 38, 0.1);
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.thanks {
+    font-size: 24px;
+    color: white;
+    background-color: rgb(245, 83, 101);
+    border: 1px solid rgb(162, 32, 42);
+    border-radius: 4px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}

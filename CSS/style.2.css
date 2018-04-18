@@ -1,0 +1,36 @@
+/*label*/
+
+label {
+    font-size: 12px;
+}
+
+/*recover form*/
+
+.header3 {
+    top: auto;
+    font-size: 32px;
+    font-style: normal;
+    color: white;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.recover {
+    top: auto;
+    left: 850px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(117, 29, 38, 0.1);
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.done {
+    font-size: 24px;
+    color: white;
+    background-color: rgb(195, 223, 161);
+    border: 1px solid rgb(144, 202, 109);
+    border-radius: 4px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}

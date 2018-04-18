@@ -1,3 +1,8 @@
+@import url('style.1.css');
+@import url('style.2.css');
+@import url('style.3.css');
+@import url('style.4.css');
+
 * {
     box-sizing: border-box;
 }
@@ -8,43 +13,35 @@ body {
     line-height: 1.2;
     margin: 0;
     padding: 0;
-    display: block;
-    width: 100vw;
-    height: 200vh;
+
 }
 
 /*kontener*/
 
 .container {
-    display: block;
+    display: inline-block;
     width: 100%;
-    height: 100%;
+    height: auto;
     background-image: url("../images/top-logo.png"), url("../images/bottom-logo.png"), url("../images/background.jpg");
     background-repeat: no-repeat, no-repeat, no-repeat;
-    background-size: 20%, 20%, cover;
-    background-position: top, bottom, center;
+    background-size: auto, auto, cover;
+    background-position: center top, right bottom, left top;
 }
 
 /*register form*/
 
 .register {
-    position: absolute;
-    top: 200px;
-    left: 200px;
-    width: 450px;
-    height: 490px;
-    background-color: rgb(117, 29, 38, 0.1);
-    border-radius: 5px;
+    display: inline-block;
+    width: 100%;
+    height: auto;
     margin-bottom: 40px;
 }
 
 .header1 {
-    position: absolute;
-    top: 150px;
-    left: 300px;
+    display: inline-block;
     font-size: 32px;
     font-style: normal;
-    text-align: center;
+    text-align: auto;
     color: white;
     margin: 0;
     margin-bottom: 20px;
@@ -54,11 +51,13 @@ body {
     background-color: white;
     border-radius: 5px;
     padding: 20px;
-    background-clip: content-box;
+    border: 20px solid rgba(117, 29, 38, 0.1);
+    background-clip: padding-box;
 }
 
 .first-form input {
-    width: 350px;
+    display: inline-block;
+    width: 100%;
     padding: 12px 0px 12px 0px;
     margin-bottom: 20px;
     border-radius: 4px;
@@ -67,46 +66,41 @@ body {
 
 #username {
     margin-top: 20px;
-    margin-left: 30px;
     background-image: url("../images/user-icon.png");
     background-repeat: no-repeat;
-    background-position: left 5% bottom 50%;
+    background-position: auto;
     text-align: left;
     padding-left: 45px;
 }
 
 #password {
-    margin-left: 30px;
     background-image: url("../images/lock-icon.png");
     background-repeat: no-repeat;
-    background-position: left 5% bottom 50%;
+    background-position: left;
     text-align: left;
     padding-left: 45px;
 }
 
 #confirm {
-    margin-left: 30px;
     background-image: url("../images/lock-icon.png");
     background-repeat: no-repeat;
-    background-position: left 5% bottom 50%;
+    background-position: left;
     text-align: left;
     padding-left: 45px;
 }
 
 #email {
-    margin-left: 30px;
     background-image: url("../images/mail-icon.png");
     background-repeat: no-repeat;
-    background-position: left 5% bottom 50%;
+    background-position: left;
     text-align: left;
     padding-left: 45px;
 }
 
 #loco {
-    margin-left: 30px;
     background-image: url("../images/map-icon.png");
     background-repeat: no-repeat;
-    background-position: left 5% bottom 50%;
+    background-position: left;
     text-align: left;
     padding-left: 45px;
 }
@@ -118,198 +112,5 @@ body {
     border: 1px solid rgb(59, 154, 0);
     border-radius: 4px;
     padding: 10px 0px 10px 0px;
-    margin-left: 30px;
-    text-align: center;
-}
-
-/*sign in form*/
-
-.sign {
-    position: absolute;
-    top: 200px;
-    left: 850px;
-    width: 450px;
-    height: 307px;
-    background-color: rgb(117, 29, 38, 0.1);
-    border-radius: 5px;
-    margin-bottom: 40px;
-}
-
-.header2 {
-    position: absolute;
-    top: 150px;
-    left: 1000px;
-    font-size: 32px;
-    font-style: normal;
-    text-align: center;
-    color: white;
-    margin: 0;
-    margin-bottom: 20px;
-}
-
-.second-form {
-    background-color: white;
-    border-radius: 5px;
-    padding: 20px;
-    background-clip: content-box;
-}
-
-.second-form input {
-    width: 350px;
-    padding: 12px 0px 12px 0px;
-    margin-bottom: 20px;
-    border-radius: 4px;
-    border: 1px solid rgb(198, 198, 198);
-}
-
-#username {
-    margin-top: 20px;
-    margin-left: 30px;
-    background-image: url("../images/user-icon.png");
-    background-repeat: no-repeat;
-    background-position: left 5% bottom 50%;
-    text-align: left;
-    padding-left: 45px;
-}
-
-#password {
-    margin-left: 30px;
-    background-image: url("../images/lock-icon.png");
-    background-repeat: no-repeat;
-    background-position: left 5% bottom 50%;
-    text-align: left;
-    padding-left: 45px;
-}
-
-#signin {
-    font-size: 24px;
-    color: white;
-    background-color: rgb(159, 213, 58);
-    border: 1px solid rgb(59, 154, 0);
-    border-radius: 4px;
-    padding: 10px 0px 10px 0px;
-    margin-left: 30px;
-    text-align: center;
-}
-
-/*label*/
-
-label {
-    font-size: 12px;
-}
-
-/*recover form*/
-
-.header3 {
-    position: absolute;
-    top: 550px;
-    left: 1000px;
-    font-size: 32px;
-    font-style: normal;
-    text-align: center;
-    color: white;
-    margin: 0;
-    margin-bottom: 20px;
-}
-
-.recover {
-    position: absolute;
-    top: 600px;
-    left: 850px;
-    width: 450px;
-    height: 346px;
-    background-color: rgb(117, 29, 38, 0.1);
-    border-radius: 5px;
-    margin-bottom: 40px;
-}
-
-.done {
-    font-size: 24px;
-    color: white;
-    background-color: rgb(195, 223, 161);
-    border: 1px solid rgb(144, 202, 109);
-    border-radius: 4px;
-    padding: 10px 0px 10px 0px;
-    margin-left: 30px;
-    text-align: center;
-}
-
-/*send e-mail*/
-
-.send-email {
-    position: absolute;
-    top: 800px;
-    left: 200px;
-    width: 450px;
-    height: 511px;
-    background-color: rgb(117, 29, 38, 0.1);
-    border-radius: 5px;
-    margin-bottom: 40px;
-}
-
-.header4 {
-    position: absolute;
-    top: 750px;
-    left: 300px;
-    font-size: 32px;
-    font-style: normal;
-    text-align: center;
-    color: white;
-    margin: 0;
-    margin-bottom: 20px;
-}
-
-.recovery-email {
-    margin-top: 20px;
-    margin-left: 30px;
-    background-image: url("../images/mail-icon.png");
-    background-repeat: no-repeat;
-    background-position: left 5% bottom 50%;
-    text-align: left;
-    padding-left: 45px;
-}
-
-.message {
-    font-family: 'Titillium Web', sans-serif;
-    margin-left: 30px;
-    width: 350px;
-    background-repeat: no-repeat;
-    background-position: left 5% bottom 50%;
-    text-align: left;
-}
-
-/*subscribe*/
-
-.header5 {
-    position: absolute;
-    top: 950px;
-    left: 1000px;
-    font-size: 32px;
-    font-style: normal;
-    text-align: center;
-    color: white;
-    margin: 0;
-    margin-bottom: 20px;
-}
-
-.subscribe {
-    position: absolute;
-    top: 1000px;
-    left: 850px;
-    width: 450px;
-    height: 261px;
-    background-color: rgb(117, 29, 38, 0.1);
-    border-radius: 5px;
-    margin-bottom: 40px;
-}
-
-.thanks {
-    font-size: 24px;
-    color: white;
-    background-color: rgb(245, 83, 101);
-    border: 1px solid rgb(162, 32, 42);
-    border-radius: 4px;
-    padding: 10px 0px 10px 0px;
-    margin-left: 30px;
     text-align: center;
 }
