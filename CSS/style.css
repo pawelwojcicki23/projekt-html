@@ -70,7 +70,6 @@ body {
 }
 
 #username {
-    margin-top: 20px;
     background-image: url("../images/user-icon.png");
     background-repeat: no-repeat;
     background-position: auto;
@@ -134,11 +133,6 @@ body {
     display: inline-block;
 }
 
-.done {
-    float: right;
-    width: 45%;
-}
-
 .send2 {
     font-size: 24px;
     color: white;
@@ -147,7 +141,7 @@ body {
     border-radius: 4px;
     padding: 10px 0px 10px 0px;
     text-align: center;
-    float: right;
+    float: left;
     width: 45%;
 }
 
