@@ -1,21 +1,5 @@
 /*send e-mail*/
 
-.send-email {
-    width: 100%;
-    height: auto;
-    background-color: rgb(117, 29, 38, 0.1);
-    border-radius: 5px;
-    margin-bottom: 40px;
-}
-
-.header4 {
-    font-size: 32px;
-    font-style: normal;
-    color: white;
-    margin: 0;
-    margin-bottom: 20px;
-}
-
 .recovery-email {
     margin-top: 20px;
     background-image: url("../images/mail-icon.png");
@@ -27,8 +11,10 @@
 
 .message {
     font-family: 'Titillium Web', sans-serif;
-    width: 350px;
+    width: 100%;
+    resize: none;
     background-repeat: no-repeat;
     background-position: left;
     text-align: left;
+
 }
