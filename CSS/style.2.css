@@ -17,3 +17,10 @@ label {
     float: right;
     width: 45%;
 }
+
+.done:hover {
+    color: rgb(195, 223, 161);
+    background-color: white;
+    border: 1px solid rgb(144, 202, 109);
+    transition: .3s ease-in-out;
+}

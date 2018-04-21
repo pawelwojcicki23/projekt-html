@@ -9,3 +9,10 @@
     padding: 10px 0px 10px 0px;
     text-align: center;
 }
+
+.signin:hover {
+    color: rgb(159, 213, 58);
+    background-color: white;
+    border: 1px solid rgb(59, 154, 0);
+    transition: .3s ease-in-out;
+}

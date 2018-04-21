@@ -9,3 +9,10 @@
     padding: 10px 0px 10px 0px;
     text-align: center;
 }
+
+.thanks:hover {
+    color: rgb(245, 83, 101);
+    background-color: white;
+    border: 1px solid rgb(162, 32, 42);
+    transition: .3s ease-in-out;
+}
